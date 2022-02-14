@@ -132,7 +132,7 @@ class ThroneRoom():
     def credit(self):
         self.clear()
         print("           -- CREDITS --")
-        print("\n-- Throne Room made by Heartbreaker --\n-- Project started on: {} --\n-- Released on: {} --\n-- Version {} --".format(project_starting_date, current_version_release_date, version))
+        print("\n-- Throne Room made by ThomasFrs --\n-- Project started on: {} --\n-- Released on: {} --\n-- Version {} --".format(project_starting_date, current_version_release_date, version))
         gotomainmenu = input("\n> Go to Main menu?\n1) Yes\n2) No\n---> ")
         self.clear()
         self.throneroom()
