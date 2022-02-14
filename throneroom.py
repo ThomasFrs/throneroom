@@ -634,5 +634,5 @@ class ThroneRoom():
             print('\n' * 50)
 
 
-winsound.PlaySound("BrownFoxInn.wav", winsound.SND_LOOP + winsound.SND_ASYNC)
+#winsound.PlaySound("BrownFoxInn.wav", winsound.SND_LOOP + winsound.SND_ASYNC)
 throneroom = ThroneRoom("-v")
