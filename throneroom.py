@@ -228,7 +228,7 @@ class ThroneRoom():
 
         elif marketing == 4:
             self.clear()
-            buysoldier = int(input("\n                 _      _  _             \n    ___   ___  | |  __| |(_)  ___  _ __    \n##  / __| / _ \ | | / _` || | / _ \| '__| ##\n##  \__ \| (_) || || (_| || ||  __/| |    ##\n##  |___/ \___/ |_| \__,_||_| \___||_|    ##\n--------------------------------------------\n> Buy Soldier(s)?(-2$/)\n1) Yes\n2) No\n---> "))
+            buysoldier = int(input("\n                 _      _  _             \n     ___   ___  | |  __| |(_)  ___  _ __    \n##  / __| / _ \ | | / _` || | / _ \| '__| ##\n##  \__ \| (_) || || (_| || ||  __/| |    ##\n##  |___/ \___/ |_| \__,_||_| \___||_|    ##\n--------------------------------------------\n> Buy Soldier(s)?(-2$/)\n1) Yes\n2) No\n---> "))
             if buysoldier == 1 and self.barrack >= 1:
                 amountsoldier = int(input("> How many?\n---> "))
                 if self.money >= amountsoldier * 2 and amountsoldier > 0:
@@ -299,7 +299,7 @@ class ThroneRoom():
 
         elif marketing ==  7:
             self.clear()
-            selling = int(input("\n                _  _ \n    ___   ___ | || |\n##  / __| / _ \| || | ##\n##  \__ \|  __/| || | ##\n##  |___/ \___||_||_| ##\n------------------------\n> What do you want to sell?\n1) Wood\n2) Stone\n0) Menu\n---> "))
+            selling = int(input("\n                _  _ \n     ___   ___ | || |\n##  / __| / _ \| || | ##\n##  \__ \|  __/| || | ##\n##  |___/ \___||_||_| ##\n------------------------\n> What do you want to sell?\n1) Wood\n2) Stone\n0) Menu\n---> "))
             if selling == 1:
                 wquantity = int(input("> How much Wood do you want to sell?(1$/10 Wood)\n---> "))
                 if wquantity >= 0 and wquantity <= self.wood:
@@ -552,7 +552,7 @@ class ThroneRoom():
             self.menu()
 
     def stats(self):
-        print("\n     ___  _          _         \n## / __|| |_  __ _ | |_  ___ ###\n### \__ \|  _|/ _` ||  _|(_-< ###\n### |___/ \__|\__,_| \__|/__/ ###\n")
+        print("\n     ___  _          _         \n### / __|| |_  __ _ | |_  ___ ###\n### \__ \|  _|/ _` ||  _|(_-< ###\n### |___/ \__|\__,_| \__|/__/ ###\n")
 
         # Wood
         print("### Wood ### ")
