@@ -3,7 +3,7 @@ ThroneRoom is a simple medieval game about resource management.\
 I developed it when I started learning Python in April 2020 and have continuously seeked for improvement.
 
 ## How To Play
-All commands either require the keypad or the Enter key.\
+All commands either require numbers or the Enter key.\
 Menus indicate which key to press to select specific commands.
 
 ## Credit
